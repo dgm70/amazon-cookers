@@ -1,5 +1,3 @@
-require("dotenv").config(); // This line is unnecessary if you're relying on Render's environment variables
-
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
